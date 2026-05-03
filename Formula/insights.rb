@@ -1,26 +1,26 @@
 class Insights < Formula
   desc "A drop-in, IDE-agnostic AI knowledge management and retrieval system"
   homepage "https://github.com/kernelle-soft/insights"
-  version "0.16.0-dev.12"
+  version "0.16.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0-dev.12/insights-0.16.0-dev.12-aarch64-apple-darwin.tar.gz"
-      sha256 "e9d57f6160c46e0a127d979dc44c4ed7c981f45ab54ba36ca1db0695c2db56d3"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d92b0a1a0492a57d6eceda81d62712220e541b5673aea90682dea43fe7782831"
     else
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0-dev.12/insights-0.16.0-dev.12-x86_64-apple-darwin.tar.gz"
-      sha256 "9d112a9b8d357971097d6fbbd01126f00c037fd248558769df70db0876c02453"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6c5304ac75f19036b4b3adb0da926f9a8f4263f4f26c6cc62c8452edea8396e3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0-dev.12/insights-0.16.0-dev.12-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3767cdce3572694705884038d0663394d9216a79aad9f862fd249af1917d21a2"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5714b1867b99403c9a1724942397d4cd743554bb5ef9480db57f2dd0a44fdb03"
     else
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0-dev.12/insights-0.16.0-dev.12-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9aea1b324854f103cc6cb9b1f9e17a92dde9c7820bc279df4e4b3c0a49ea10b9"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "db9ee3423dd74215628c79b392ff213f6418140c10e193f9135bc52f7e053b1d"
     end
   end
 
