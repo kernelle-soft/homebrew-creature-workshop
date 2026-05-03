@@ -1,26 +1,26 @@
 class Insights < Formula
   desc "A drop-in, IDE-agnostic AI knowledge management and retrieval system"
   homepage "https://github.com/kernelle-soft/insights"
-  version "0.16.0"
+  version "0.16.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d92b0a1a0492a57d6eceda81d62712220e541b5673aea90682dea43fe7782831"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.1/insights-0.16.1-aarch64-apple-darwin.tar.gz"
+      sha256 "5b7379e12ec1368cfe55dd15c5be020be882c7537b5252ac644afd96f9ea4c77"
     else
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6c5304ac75f19036b4b3adb0da926f9a8f4263f4f26c6cc62c8452edea8396e3"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.1/insights-0.16.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c3e52b7956bf5706fd5be352a0b04c05a3b8112edbbacc5276b5af6cbe7bbd80"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5714b1867b99403c9a1724942397d4cd743554bb5ef9480db57f2dd0a44fdb03"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.1/insights-0.16.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "02480784b1f0324377f7d6d2c3df244e0b769dfc5bc62da8a3e88a4b035e2ee5"
     else
-      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.0/insights-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db9ee3423dd74215628c79b392ff213f6418140c10e193f9135bc52f7e053b1d"
+      url "https://creature-workshop.kernelle-soft.com/kernelle-soft/insights/releases/download/v0.16.1/insights-0.16.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fee26485b180b38b7f28047de80206310166c1b31751253c6db6cea42e1ef543"
     end
   end
 
