@@ -26,6 +26,7 @@ class Insights < Formula
 
   def install
     bin.install "insights"
+    bin.install "insights_server"
   end
 
   test do
